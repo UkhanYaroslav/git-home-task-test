@@ -9,7 +9,7 @@ namespace UnderstandingLINQ
     class Program
     {
         delegate void deleg(string x);
-        public delegate void Notify();//delegate for event
+        public delegate void Notify();//delegate for event    
         public delegate void Action_del(string s);
         static void Main(string[] args)
         {
